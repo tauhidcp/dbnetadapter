@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":108774580,"name":"memdatabase.smemnorecords","sourcebytes":[78,111,32,100,97,116,97,32,102,111,117,110,100],"value":"No data found"},
+{"hash":88827668,"name":"memdatabase.sinvalidfields","sourcebytes":[78,111,32,102,105,101,108,100,115,32,100,101,102,105,110,101,100],"value":"No fields defined"}
+]}

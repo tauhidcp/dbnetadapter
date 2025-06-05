@@ -1,0 +1,33 @@
+object ServerForm: TServerForm
+  Left = 407
+  Height = 240
+  Top = 236
+  Width = 320
+  Caption = 'ServerForm'
+  LCLVersion = '2.0.10.0'
+  object ZeosDataServer1: TZeosDataServer
+    Active = True
+    LocalOnly = False
+    AuthRequired = False
+    ZeosDBConnection = ZConnection1
+    Port = '8080'
+    OnCustInternalCall = ZeosDataServer1CustInternalCall
+    OnUserLogonCall = ZeosDataServer1UserLogonCall
+    Left = 72
+    Top = 43
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+    )
+    Connected = True
+    Port = 0
+    Database = '.\dbdemos.db3'
+    Protocol = 'sqlite-3'
+    LibraryLocation = 'D:\AHMAD TAUHID\LazarusIDE\DBNetProcessorEdited\lazdemo\libsqlite3\64\sqlite3.dll'
+    Left = 168
+    Top = 43
+  end
+end
