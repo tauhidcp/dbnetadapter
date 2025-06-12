@@ -1,5 +1,5 @@
 ## Introduction
-Lazarus Free Pascal Package for Database Client Server Development 
+DBNetAdapter / DBNetProcessor is a Lazarus Free Pascal Package for Database Client Server Development 
 
 Original Source https://sourceforge.net/projects/laz-n-tier/
 
