@@ -4,9 +4,9 @@ Lazarus Free Pascal Package for Database Client Server Development
 Original Source https://sourceforge.net/projects/laz-n-tier/
 
 ## Dependent 
-*ZeosDBO*
+*Zeos DBO version 7.2.14*
 
 ## Tested
-- Lazarus 2.0.10 + FPC 3.2.0
-- Windows 10 64 
+- Lazarus 4.0 + FPC 3.2.2
+- Windows 11 64 
 
